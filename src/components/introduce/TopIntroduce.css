@@ -1,0 +1,17 @@
+.top-header {
+  border:1px solid #262626;
+}
+.top-header .img_Logo{
+  width: 24px;
+  height: 24px;
+  margin-left:36%;
+  margin-top:12px;
+}
+.top-header p {
+  padding: 0 0  0 10px ;
+  color: #FFFFFF;
+  padding-top:12px;
+}
+.top-header .top-header {
+  margin:100px;
+}

@@ -1,0 +1,16 @@
+.nabar ul li {
+  list-style: none;
+}
+.nabar ul li a {
+  text-decoration: none;
+}
+.nabar .navbar-center ul li a {
+  padding: 16px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.nabar .navbar-right ul li a {
+  padding: 16px 16px 0 0;
+  color: #ffffff;
+  font-size: 14px;
+}
