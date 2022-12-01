@@ -2,13 +2,12 @@ import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
 import { Logo_name } from "../../assets/images/image";
-import "bootstrap/dist/css/bootstrap.css";
-import "../menu/Navbarmenu.css";
+  import "../menu/Navbarmenu.css";
 
 const Navbarmenu = () => {
   return (
     <>
-      <div className="container nabar">
+      <div className="container nabar pb-3">
         <div className="row">
           <div className="col-sm-2 mt-4">
             <img src={Logo_name} className="logo-name" />
@@ -21,7 +20,7 @@ const Navbarmenu = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="">
+                <a href="" className="">
                   Solutions
                 </a>
               </li>
@@ -36,7 +35,7 @@ const Navbarmenu = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="">
+                <a href="/resources" className="">
                   Resources
                 </a>
               </li>
