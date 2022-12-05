@@ -7,6 +7,7 @@ import Navbarmenu from "./components/menu/Navbarmenu";
 import TopIntroduce from "./components/introduce/TopIntroduce";
 import Footer from "./components/Footer/footer";
 import Resources from "./pages/Resources/Resources";
+import MyCarousel from "./components/MyCarousel/MyCarousel";
 
 function App() {
   return (
