@@ -1,20 +1,23 @@
 .top-header {
-  border:1px solid #262626;
-  justify-content: center;
-}
-.top-header .img_Logo{
-  width: 24px;
-  height: 24px;
-}
-.top-header p {
-  padding: 0 0  0 10px ;
-  color: #FFFFFF;
-  padding-top:12px;
-}
-.top-header .top-header {
-  margin:100px;
-}
-.navbar-center ul {
+  border: 1px solid #262626;
   justify-content: center;
 }
 
+.top-header .img_Logo {
+  width: 24px;
+  height: 24px;
+  margin-top: 12px;
+}
+
+.top-header p {
+  margin: 12px 0 0 10px;
+  color: #FFFFFF;
+}
+
+.top-header .top-header {
+  margin: 100px;
+}
+
+.navbar-center ul {
+  justify-content: center;
+}

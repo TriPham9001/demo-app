@@ -38,9 +38,46 @@ import Founders from "../images/Founders.png"
 import Durable from "../images/Durable.png"
 import Coatue from "../images/Coatue.png"
 import Accel from "../images/Accel.png"
+import Scailnew_1 from "../images/scailnew_1.png"
+import Scailnew_2 from "../images/scailnew_2.png"
+import Scailnew_3 from "../images/scailnew_3.png"
+
+
+
+// Icons
+import Adn from "../images/icon/adn_icon.png"
+import Balance from "../images/icon/balance_icon.png"
+import Bank from "../images/icon/bank_icon.png"
+import Compass from "../images/icon/compass_icon.png"
+import Flag from "../images/icon/flag_icon.png"
+import Globe from "../images/icon/globe_icon.png"
+import Loudspeaker from "../images/icon/loudspeaker_icon.png"
+import Padlock from "../images/icon/padlock_icon.png"
+import Medal from "../images/icon/medal_icon.png"
+import Persons from "../images/icon/persons_icon.png"
+import Stock from "../images/icon/stock_icon.png"
+
 
 
 export {
+    Stock,
+    Persons,
+    Medal,
+    Padlock,
+    Loudspeaker,
+    Flag,
+    Globe,
+    Compass,
+    Bank,
+    Balance,
+    Adn,
+
+
+    // icon
+
+    Scailnew_1,
+    Scailnew_2,
+    Scailnew_3,
     Dragoneer,
     Combinatoe,
     Wellington,
@@ -81,5 +118,9 @@ export {
     Toyota,
     Us,
     Zoox,
+
+
+    // icons
+
 
 };

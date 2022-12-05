@@ -5,7 +5,6 @@ import "../Footer/footer.css"
 function Footer() {
     return (
         <>
-            <div className='line'></div>
             <div className='container footer'>
                 <div className='row'>
                     <div className='col-6 col-lg-2'>
