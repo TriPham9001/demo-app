@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { Outlet, NavLink, Link } from "react-router-dom";
 import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
 import { Logo_name } from "../../assets/images/image";
-  import "../menu/Navbarmenu.css";
+import "../menu/Navbarmenu.css";
 
 const Navbarmenu = () => {
   return (
@@ -15,58 +15,60 @@ const Navbarmenu = () => {
           <div className="col-lg-8 navbar-center mt-4">
             <ul className="d-flex">
               <li>
-                <a href="/" className="">
+                <Link to="/" className="txt-navbar">
                   Products
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="" className="">
+                <Link to="/solutions" className="">
                   Solutions
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="">
+                <Link to="/customers" className="">
                   Customers
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="">
+                <Link to="/pricing" className="">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/resources" className="">
+                <Link to="/resources" className="">
                   Resources
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="">
+                <Link to="/company" className="">
                   Company
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="">
+                <Link to="/conference" className="">
                   Conference
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
           <div className="col-lg-2 navbar-right mt-4">
             <ul className="d-flex">
               <li>
-                <a href="/" className="">
+                <Link to="/" className="">
                   Talk to Sales
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="">
+                <Link to="#" className="">
                   Sign Up
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
       </div>
+
+      <Outlet />
     </>
   );
 };

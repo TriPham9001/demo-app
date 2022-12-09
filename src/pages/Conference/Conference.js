@@ -2,7 +2,7 @@ import React from 'react'
 
 function Conference() {
   return (
-    <div>Conference</div>
+    <h1>Conference</h1>
   )
 }
 

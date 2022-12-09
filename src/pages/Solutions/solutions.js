@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function solutions() {
-  return (
-    <div>solutions</div>
-  )
+function Solutions() {
+  return <h1>Solutions</h1>;
 }
 
-export default solutions
+export default Solutions;

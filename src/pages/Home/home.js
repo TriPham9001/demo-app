@@ -79,7 +79,7 @@ export default function Home() {
               <p>
                 This website uses cookies and similar technologies to ensure
                 functionality, evaluate website usage, and to serve marketing
-                content. Visit our
+                content. Visit our{" "}
                 <a className="accept-cookie-link" href="#/">
                   Cookie Policy
                 </a>{" "}
